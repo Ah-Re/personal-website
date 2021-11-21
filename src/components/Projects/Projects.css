@@ -1,0 +1,189 @@
+.projects-section {
+    background-color: #181818;
+    padding-top: 6rem;
+}
+
+.subtitle {
+    color: #1DB954;
+    font-family: "Cormorant";
+    font-size: 50px;
+    text-align: center;
+}
+
+.movie-app {
+    border-radius: 12px;
+    width: 400px;
+    height: 250px;
+}
+
+.github-app {
+    border-radius: 12px;
+    width: 400px;
+    height: 250px;
+
+    
+    
+}
+
+.keeper-app {
+    border-radius: 12px;
+    width: 400px;
+    height: 250px;
+}
+
+
+
+.keeper-app-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    
+}
+
+.keeper-app-wrapper h2 {
+color: white;
+margin-bottom: 1rem;
+
+}
+
+.github-app-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    margin-top: 4rem;
+    /* margin-bottom: 4rem; */
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+
+.github-app-wrapper h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.movie-app-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    margin-top: 4rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+
+.movie-app-wrapper h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.project-pics {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    
+}
+.app-description {
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 2rem;
+    text-align: left;
+
+    
+}
+
+.tool-tags {
+    background-color: gray;
+    border-radius: 12px;
+    color: white;
+    display: inline-block;
+    margin-right: 0.7rem;
+    margin-top: 0.7rem;
+    padding: 8px;
+}
+
+.demo {
+    
+    border-radius: 12px;
+    display: inline-block;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.demo:hover {
+    filter: brightness(65%);
+}
+
+.code {
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.code:hover {
+    filter: brightness(65%);
+}
+
+@media (max-width: 1000px) {
+    .movie-app-wrapper {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .github-app-wrapper {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .keeper-app-wrapper {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .app-description {
+        text-align: center;
+    }
+
+    .movie-app {
+        display: block;
+        margin: auto;
+    }
+
+    .github-app {
+        display: block;
+        margin: auto;
+    }
+
+    .keeper-app {
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .movie-app-wrapper {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .github-app-wrapper {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .keeper-app-wrapper {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .movie-app {
+        width: 100%;
+    }
+
+    .keeper-app {
+        width: 100%;
+    }
+
+    .github-app {
+        width: 100%;
+    }
+}

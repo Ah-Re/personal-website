@@ -1,0 +1,29 @@
+.contact-section {
+    background-color: #181818;
+    color: white;
+    padding-top: 6rem;
+    text-align: center;
+}
+
+.contact-section h1 {
+    color: #1DB954;
+    font-family: "Cormorant", serif;
+    font-size: 50px;
+}
+
+.contact-section button {
+    background-color: #1DB954;
+    border: none;
+    border-radius: 40px;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 1rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 12rem;
+}
+
+.contact-section button:hover {
+    filter: brightness(65%);
+}

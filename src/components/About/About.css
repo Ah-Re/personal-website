@@ -1,0 +1,55 @@
+.about-section {
+    background-color: #181818;
+    /* width: 90%; */
+    
+    /* display: grid; */
+    padding-top: 6rem;
+    /* grid-template-columns: 40% 60%; */
+    padding-left: 15rem;
+    padding-right: 15rem;
+    
+}
+.subtitle {
+    margin-bottom: 2rem;
+    color: #1DB954;
+    font-family: "Cormorant";
+    font-size: 50px;
+    text-align:left;
+
+}
+
+
+
+.description {
+    background-color: #181818;
+    color: white;
+    /* margin-right: 5rem; */
+    /* font-size: 25px; */
+    line-height: 2rem;
+    padding: 0 2rem 2rem 2rem;
+    text-align: left;
+    
+    
+}
+
+@media (max-width: 768px) {
+    .about-section {
+        padding-left: 10rem;
+        padding-right: 10rem;
+       
+    }
+
+    .description {
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .about-section {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+
+
