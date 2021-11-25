@@ -12,14 +12,14 @@
 
 .movie-app {
     border-radius: 12px;
-    width: 400px;
-    height: 250px;
+    width: 250px;
+    height: 150px;
 }
 
 .github-app {
     border-radius: 12px;
-    width: 400px;
-    height: 250px;
+    width: 250px;
+    height: 150px;
 
     
     
@@ -27,67 +27,76 @@
 
 .keeper-app {
     border-radius: 12px;
-    width: 400px;
-    height: 250px;
+    width: 250px;
+    height: 150px;
 }
 
 
 
 .keeper-app-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
-    margin-left: 12rem;
-    margin-right: 12rem;
+    background-color: #323232;
+    border-radius: 13px;
+    text-align: center;
+    padding: 2rem 1rem;
+    
     
 }
 
 .keeper-app-wrapper h2 {
 color: white;
+margin-top: 1rem;
 margin-bottom: 1rem;
 
 }
 
 .github-app-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
-    margin-top: 4rem;
-    /* margin-bottom: 4rem; */
-    margin-left: 12rem;
-    margin-right: 12rem;
+    background-color: #323232;
+    border-radius: 13px;
+    padding: 2rem 1rem;
+    text-align: center;
+    
+    
 }
 
 .github-app-wrapper h2 {
     color: white;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 .movie-app-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
-    margin-top: 4rem;
-    margin-left: 12rem;
-    margin-right: 12rem;
+    background-color: #323232;
+    border-radius: 13px;
+    padding: 2rem 1rem;
+    text-align: center;
+    
+    
+
 }
 
 .movie-app-wrapper h2 {
     color: white;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 .project-pics {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     
 }
+
 .app-description {
     color: white;
     margin-top: 1rem;
     margin-bottom: 1rem;
     line-height: 2rem;
-    text-align: left;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
 
     
 }
@@ -124,12 +133,12 @@ margin-bottom: 1rem;
 }
 
 @media (max-width: 1000px) {
-    .movie-app-wrapper {
+    /* .movie-app-wrapper {
         grid-template-columns: 1fr;
         text-align: center;
-    }
+    } */
 
-    .github-app-wrapper {
+    /* .github-app-wrapper {
         grid-template-columns: 1fr;
         text-align: center;
     }
@@ -156,10 +165,26 @@ margin-bottom: 1rem;
     .keeper-app {
         display: block;
         margin: auto;
+    } */
+}
+
+@media (max-width: 768px) {
+
+    .project-pics {
+        grid-template-columns: 1fr 1fr;
+        
     }
+
+    
+
 }
 
 @media (max-width: 400px) {
+
+    .project-pics {
+        grid-template-columns: 1fr ;
+    }
+
     .movie-app-wrapper {
         margin-left: 1rem;
         margin-right: 1rem;
