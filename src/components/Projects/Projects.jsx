@@ -3,6 +3,7 @@ import "./Projects.css";
 import MovieApp from "../../images/movie-search-app.png";
 import GithubApp from "../../images/github-app.png";
 import KeeperApp from "../../images/keeper-app.png";
+import CoffeeRoasters from "../../images/coffee-roasters.png";
 import { FontAwesomeIcon,  } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import { faGithub,  } from "@fortawesome/free-brands-svg-icons";
@@ -21,6 +22,22 @@ function Projects() {
         <div className="projects-section">
         <h1 className="subtitle" data-aos="fade-up">projects</h1>
         <div className="project-pics">
+        <div className="keeper-app-wrapper" data-aos="fade-up">
+        <img className="keeper-app" src={CoffeeRoasters}></img>
+        <div>
+        <h2>Coffee Roasters</h2>
+        <p className="tool-tags">ReactJS</p>
+        <p className="tool-tags">React-Router</p>
+        <p className="app-description">A fully responsive 3-page website for a mock coffee company called Coffee Roasters, 
+        where users can get a monthly coffee subscription based on their personal preferences.</p>
+        <a className="demo" href="https://constipated.github.io/keeper/">
+        <FontAwesomeIcon icon={faExternalLinkAlt} color="#1DB954" size="2x"/>
+        </a>
+        <a className="code" href="https://github.com/Constipated/keeper">
+        <FontAwesomeIcon icon={faGithub} color="#1DB954" size="2x"/></a>
+        </div>
+        </div>
+
         <div className="keeper-app-wrapper" data-aos="fade-up">
         <img className="keeper-app" src={KeeperApp}></img>
         <div>
