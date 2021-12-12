@@ -30,10 +30,10 @@ function Projects() {
         <p className="tool-tags">React-Router</p>
         <p className="app-description">A fully responsive 3-page website for a mock coffee company called Coffee Roasters, 
         where users can get a monthly coffee subscription based on their personal preferences.</p>
-        <a className="demo" href="https://constipated.github.io/keeper/">
+        <a className="demo" href="https://dreamy-pike-1d30db.netlify.app">
         <FontAwesomeIcon icon={faExternalLinkAlt} color="#1DB954" size="2x"/>
         </a>
-        <a className="code" href="https://github.com/Constipated/keeper">
+        <a className="code" href="https://github.com/Ah-Re/coffee-roasters">
         <FontAwesomeIcon icon={faGithub} color="#1DB954" size="2x"/></a>
         </div>
         </div>
