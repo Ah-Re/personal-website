@@ -44,9 +44,8 @@ function Projects() {
         <h2>Keeper</h2>
         <p className="tool-tags">ReactJS</p>
         <p className="tool-tags">Firebase</p>
-        <p className="app-description">Users can enter a Github username and the application will
-        make an API call to the Github API and return data that's 
-        presented to the user in an aesthetic way.</p>
+        <p className="app-description">Google Keep Clone where users can create an account with Google authentication
+        and write noted reminders.  </p>
         <a className="demo" href="https://constipated.github.io/keeper/">
         <FontAwesomeIcon icon={faExternalLinkAlt} color="#1DB954" size="2x"/>
         </a>
