@@ -14,6 +14,7 @@ const ProjectCard = (props) => {
             
             return <p className="tool-tags">{tool}</p>
         })}
+        
         <p className="app-description">{props.ProjectDescription}</p>
         <a className="demo" href={props.ProjectLink}>
         <FontAwesomeIcon icon={faExternalLinkAlt} color="#1DB954" size="2x"/>

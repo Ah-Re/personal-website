@@ -13,7 +13,7 @@ const Contact = () => {
     return (
         <section id="contact">
         <div className="contact-section">
-            <h1 data-aos="fade-up">contact</h1>
+            <h1 data-aos="fade-up">Contact</h1>
             <a href="mailto:reiza6@gmail.com" data-aos="fade-up"><button>Say Hello</button></a>
         </div>
         </section>

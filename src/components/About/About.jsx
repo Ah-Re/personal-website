@@ -12,7 +12,7 @@ function About() {
     return (
         <section id="about">
         <div className="about-section" >
-        <h1 className="subtitle" data-aos="fade-up">about</h1>
+        <h1 className="subtitle" data-aos="fade-up">About</h1>
         <p className="description" data-aos="fade-up">I started my programming journey at DePaul University 
         where I studied Computer Science before working as a 
         Java developer for a Fortune 500 company. My experience has led me to working with various technologies

@@ -1,20 +1,29 @@
 * {
   box-sizing: border-box;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Merriweather';
   margin: 0;
+
   padding: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+  background-color: #181818;
+  margin-left: 13rem;
+  margin-right: 13rem;
 }
 
+@media (max-width: 1000px) {
+  body {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
 
-
-
-
-
-
-
-
+@media (max-width: 750px) {
+  body {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

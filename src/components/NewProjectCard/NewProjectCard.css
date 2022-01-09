@@ -1,0 +1,74 @@
+.new-project-card {
+    background-color: #3a3b3c;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+
+}
+
+.new-project-card:hover {
+    cursor: pointer;
+    top: -10px;
+}
+
+.new-project-card h2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+.new-project-card p {
+    padding-bottom: 2rem;
+}
+
+.new-project-card h2:hover {
+    cursor: pointer;
+    color: #1db954;
+}
+
+.new-project-card .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-project-card .github-icon {
+    margin-left: 0.5rem;
+}
+
+.project-tools {
+    color: white;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    flex-grow: 1;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.project-tools li {
+    padding-right: 1rem;
+}
+
+.project-tools span {
+    color: white;
+    font-style: italic;
+    font-size: 14px;
+
+
+}
+
+.icons .github-icon:hover {
+    cursor: pointer;
+    color: #1DB954;
+}
+
+.icons .link-icon:hover {
+    cursor: pointer;
+    color: #1DB954;
+}
